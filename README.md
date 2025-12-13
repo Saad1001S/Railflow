@@ -29,15 +29,22 @@ For a detailed breakdown of why we use **Reinforcement Learning (PPO)** instead 
 - Python 3.11+
 - [List other dependencies here, e.g., NumPy, Pandas, SimPy]
 
-### Installation
+### Local Setup Guide
 
-1. Clone the repository:
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/zer-art/Roboflow
    cd Roboflow
    ```
 
-2. Install dependencies:
+2. **Create and Activate Conda Environment:**
+   Ensure you have [Anaconda](https://www.anaconda.com/) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) installed.
+   ```bash
+   conda create -n roboflow python=3.11 -y
+   conda activate roboflow
+   ```
+
+3. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
