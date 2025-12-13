@@ -49,3 +49,19 @@ To prove the model is superior to the current manual system, we track two distin
 2.  **Section Capability (Throughput)**: Number of trains successfully cleared per hour. (Goal: Increase by ~10%).
 3.  **Energy Consumption**: Estimated function of `Speed * Acceleration`. Smoother profiles = less energy. (Goal: Reduce by 5-8%).
 4.  **Priority Adherence**: % of high-priority trains (e.g., Vande Bharat) kept on time vs. freight.
+
+### Q6: Model Selection - Which specific AI models?
+Since this is a **Control Problem**, we use **Reinforcement Learning (RL)** policies, not Large Language Models (LLMs).
+
+**Recommended Model:**
+*   **Algorithm**: **PPO (Proximal Policy Optimization)**.
+    *   *Why?* It is the industry standard for robotics and control. It balances "exploring" new strategies with "exploiting" known good ones without crashing the training process.
+*   **Policy Architecture**: `MlpPolicy` (Multi-Layer Perceptron).
+    *   *Structure*: A neural network with 2-3 hidden layers (e.g., 64x64 neurons).
+    *   *Input*: Vector of numbers [Train1_Pos, Train1_Speed, Signal_State, ...].
+    *   *Output*: Probability distribution over actions [Hold, Proceed_Line1, Proceed_Line2].
+*   **Library**: `stable-baselines3`.
+    *   *Command to use*: `model = PPO("MlpPolicy", env, verbose=1)`
+
+**Why not Llama/GPT?**
+LLMs are "Sequence Models" (Next token predictors). They are great for writing text but terrible at calculating exact stopping distances or optimizing complex math equations in milliseconds.
