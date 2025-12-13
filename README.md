@@ -33,8 +33,8 @@ For a detailed breakdown of why we use **Reinforcement Learning (PPO)** instead 
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_directories>
+   git clone https://github.com/zer-art/Roboflow
+   cd Roboflow
    ```
 
 2. Install dependencies:
